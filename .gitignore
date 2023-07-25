@@ -1,2 +1,9 @@
 .ipynb_checkpoints/*
 *.ipynb_checkpoint
+*/__pycache__/*
+data/fdata2023-06-01.h5ad
+data/hdata2023-06-05.h5ad
+data/mouse_raw_counts_from_cellxgene.h5ad
+*.h5ad
+*.ipynb_checkpoints/*
+*-checkpoint.ipynb
