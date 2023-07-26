@@ -21,6 +21,12 @@ To perform these integrations, I used scRNA-seq data from the primary motor cort
 
 ## Data availability
 
+| Species    | Source           | Name                | Link  |
+| ---------- |------------------| --------------------| ------------------------------------------------------------------|
+| Human      | Allen brain map  | Human M1 10X        | https://portal.brain-map.org/atlases-and-data/rnaseq/human-m1-10x |
+| Mouse      | CellxGene        | 10X nuclei v3 Broad | https://cellxgene.cziscience.com/collections/ae1420fe-6630-46ed-8b3d-cc6056a66467 |
+| Drosophila | The Fly Cell Atlas | E-MTAB-10519        | http://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/sc_experiments/E-MTAB-10519/ |
+
 ## Packages version
 - scanpy==1.9.3
 - anndata==0.9.1
