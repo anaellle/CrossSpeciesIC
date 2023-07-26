@@ -35,7 +35,6 @@ To perform these integrations, I used scRNA-seq data from the primary motor cort
 - scipy==1.10.1
 - pandas==2.0.1
 - scikit-learn==1.2.2
-- statsmodels==0.14.0
 - python-igraph==0.10.4
-- louvain==0.8.0
-- pynndescent==0.5.10
+- scarches==0.5.8
+- biomart==0.9.2
