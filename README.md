@@ -55,7 +55,14 @@ All the futur scripts are based on `Vignettes/frog_zebrafish_embryogenesis/Train
 | Mouse      | CellxGene          | 10X nuclei v3 Broad | https://cellxgene.cziscience.com/collections/ae1420fe-6630-46ed-8b3d-cc6056a66467 |
 | Drosophila | The Fly Cell Atlas | E-MTAB-10519        | http://ftp.ebi.ac.uk/pub/databases/microarray/data/atlas/sc_experiments/E-MTAB-10519/ |
 
-## Packages version
+## Packages 
+### expiMap
+See the tutorials to download the packages required.
+
+### SATURN
+Use the requirements.txt file and follow the indications present in the `SATURN/README.md` file.
+
+### Packages version
 - scanpy==1.9.3
 - anndata==0.9.1
 - umap==0.5.3
