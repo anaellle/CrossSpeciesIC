@@ -24,3 +24,5 @@ SATURN/Vignettes/frog_zebrafish_embryogenesis/data/
 SATURN/Vignettes/frog_zebrafish_embryogenesis/saturn_results/
 SATURN/Vignettes/frog_zebrafish_embryogenesis/saturn_results_1/
 SATURN/Vignettes/frog_zebrafish_embryogenesis/saturn_results_2/
+*/.ipynb_checkpoints/*
+expiMap/object_human_mouse/.ipynb_checkpoints/
