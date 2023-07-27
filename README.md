@@ -36,7 +36,7 @@ The repository `SATURN` is a clone of the project [SATURN](https://github.com/sn
 
 1. `data_preprocessing.ipynb`: inspired by the script `Vignettes/frog_zebrafish_embryogenesis/dataloader.ipynb`, I load each anndata object and apply the modification required to run SATURN including adding the species name, filtering the cells and the genes, putting the gene name as the `.var_names`. This script also create for the human and mouse 3 other objects each being one specific cell type among *GABAergic*, *Glutamatergic* and *Non-Neuronal*. All the objects are save in the directory `Vignettes/frog_zebrafish_embryogenesis/data`.
 2. `gene_names.ipynb`: get human information from ensembl, not needed.
-3. `protein_embeddings/gpe_human_mouse.ipynb`: based on the `protein_embeddings/Generate Protein Embedding.ipynb` script, download the reference proteom for mouse and human and generate the embeddings files. Before generating the embeddings files, `gpe_human.sh` and `gpe_mouse.sh` need to be runned, it requires to download the [ESM repository](https://github.com/facebookresearch/esm) and `checkout commit` [839c5b82c6cd9e18baa7a88dcbed3bd4b6d48e47](https://github.com/facebookresearch/esm/commit/839c5b82c6cd9e18baa7a88dcbed3bd4b6d48e47).
+3. `protein_embeddings/gpe_human_mouse_fly.ipynb`: based on the `protein_embeddings/Generate Protein Embedding.ipynb` script, download the reference proteom for mouse and human and generate the embeddings files. Before generating the embeddings files, `gpe_human.sh`, `gpe_mouse.sh` and `gpe_fly.sh` need to be runned, it requires to download the [ESM repository](https://github.com/facebookresearch/esm) and `checkout commit` [839c5b82c6cd9e18baa7a88dcbed3bd4b6d48e47](https://github.com/facebookresearch/esm/commit/839c5b82c6cd9e18baa7a88dcbed3bd4b6d48e47).
 
 ### Running SATURN
 
@@ -46,6 +46,7 @@ All the futur scripts are based on `Vignettes/frog_zebrafish_embryogenesis/Train
 3. `training_human_mouse_Glutamatergic.ipynb`: same as `training_human_mouse.ipynb`, only for *Glutamatergic* cells, use the `saturn_training_Glutamatergic.sh` file to run the training.
 4. `training_human_mouse_Non-Neuronal.ipynb`: same as `training_human_mouse.ipynb`, only for *Non-Neuronal* cells, use the `saturn_training_Non-Neuronal.sh` file to run the training.
 5. `results.ipynb`: visualise the results of the 4 previous integration, PCA and UMAP plots.
+6. `training_human_mouse_fly.ipynb`: create the input file for training SATURN, use the whole human, mouse and fly objects. To run the training, use the `saturn_training_hmf.sh` file. Did not manage to make it work for now.
 
 ## Data availability
 
