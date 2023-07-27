@@ -40,7 +40,7 @@ The repository `SATURN` is a clone of the project [SATURN](https://github.com/sn
 
 ### Running SATURN
 
-All the futur scripts are based on `Vignettes/frog_zebrafish_embryogenesis/Train SATURN.ipynb` file and are situated in the directory `Vignettes/frog_zebrafish_embryogenesis/`.
+All the futur scripts are based on `Vignettes/frog_zebrafish_embryogenesis/Train SATURN.ipynb` file and are situated in the directory `Vignettes/frog_zebrafish_embryogenesis/`. The training use the `train-saturn.py` file where 3 lines where changes from `df.append()` to `pd.concat()`, issue due to pandas version.
 1. `training_human_mouse.ipynb`: create the input for training SATURN, use the whole human and mouse datasets and visualise the results. To run the training, use the `saturn_training.sh` file.
 2. `training_human_mouse_GABAergic.ipynb`: same as `training_human_mouse.ipynb` but only for *GABAergic* cells, use the `saturn_training_GABAergic.sh` file to run the training.
 3. `training_human_mouse_Glutamatergic.ipynb`: same as `training_human_mouse.ipynb`, only for *Glutamatergic* cells, use the `saturn_training_Glutamatergic.sh` file to run the training.
